@@ -21,29 +21,29 @@ To use the CLI Task Manager Tool, follow these steps:
 
    ```bash
    $ git clone https://github.com/your_username/task-manager.git
-   $ cd task-manager `
+   $ cd task-manager
 
 1.  Create a virtual environment (optional):
 
     ```bash
-    $ python -m venv venv`
+    $ python -m venv venv
 
 2.  Activate the virtual environment:
 
     -   Windows:
 
         ```bash
-        $ venv\Scripts\activate`
+        $ venv\Scripts\activate
 
     -   macOS/Linux:
 
         ```bash
-        $ source venv/bin/activate`
+        $ source venv/bin/activate
 
 3.  Install the CLI Task Manager Tool as a package:
 
     ```bash
-    $ pip install .`
+    $ pip install .
 
 5.  Now you can use the tool from anywhere in the terminal using the `tasks` command.
 
@@ -68,22 +68,22 @@ Here are the basic commands to use the CLI Task Manager Tool:
 -   To add a task:
 
     ```bash
-    $ tasks add "Task description"`
+    $ tasks add "Task description"
 
 -   To view all tasks:
 
     ```bash
-    $ tasks view`
+    $ tasks view
 
 -   To mark a task as completed:
 
     ```bash
-    $ tasks complete <task_id>`
+    $ tasks complete <task_id>
 
 -   To delete a task:
 
     ```bash
-    $ tasks delete <task_id>`
+    $ tasks delete <task_id>
 
 Contributing
 ------------
