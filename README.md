@@ -8,7 +8,6 @@ The CLI Task Manager Tool is a command-line application that helps you manage yo
 - [Usage](#usage)
 - [Commands](#commands)
 - [Contributing](#contributing)
-- [License](#license)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -48,6 +47,19 @@ To use the CLI Task Manager Tool, follow these steps:
 
 5.  Now you can use the tool from anywhere in the terminal using the `tasks` command.
 
+Commands
+--------
+
+-   `add`: Add a new task to the task list.
+
+-   `view`: View all tasks in the task list.
+
+-   `complete`: Mark a task as completed.
+
+-   `delete`: Delete a task from the task list.
+
+For more details and command options, use `tasks -h` or `tasks --help`.
+
 Usage
 -----
 
@@ -72,19 +84,6 @@ Here are the basic commands to use the CLI Task Manager Tool:
 
     ```bash
     $ tasks delete <task_id>`
-
-Commands
---------
-
--   `add`: Add a new task to the task list.
-
--   `view`: View all tasks in the task list.
-
--   `complete`: Mark a task as completed.
-
--   `delete`: Delete a task from the task list.
-
-For more details and command options, use `tasks -h` or `tasks --help`.
 
 Contributing
 ------------
