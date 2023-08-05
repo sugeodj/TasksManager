@@ -40,7 +40,12 @@ To use the CLI Task Manager Tool, follow these steps:
         ```bash
         $ source venv/bin/activate
 
-3.  Install the CLI Task Manager Tool as a package:
+3.  Install the required packages firest::
+
+    ```bash
+    $ pip install -r requirements.txt
+
+4.  Install the CLI Task Manager Tool as a package:
 
     ```bash
     $ pip install .
