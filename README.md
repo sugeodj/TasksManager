@@ -20,7 +20,7 @@ To use the CLI Task Manager Tool, follow these steps:
 2. Clone this repository to your local machine:
 
    ```bash
-   $ git clone https://github.com/your_username/task-manager.git
+   $ git clone https://github.com/sugeodj/tasks-manager.git
    $ cd task-manager
 
 1.  Create a virtual environment (optional):
